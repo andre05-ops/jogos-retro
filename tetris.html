@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tetris</title>
+    <link rel="stylesheet" href="./detalhes.css">
+    <link href="https://fonts.googleapis.com/css2?family=press+start+2p&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a href="index.html">voltar ao inicio</a>
+      <h1>tetris — Detalhes, História e Curiosidades</h1>
+      <h1>Nostalgia do Jogo tetris</h1>
+    </header>
+
+    <main>
+      <div class="retro-1">
+        <h2>Relembre a sua infância quando jogava este jogo</h2>
+        <p>tetris uns dos jogos marcantes dos anos 80</p>
+        <img src="assets/image-tetris-retro.jpg" alt="">
+      </div>
+      
+      <div class="retro-2">
+        <h2>Veja o video abaixo do tetris</h2>
+        <p>Se você é fã desse clássico nostálgico, vai adorar relembrar as aventuras do tetris!</p>
+       <iframe 
+       width="560" 
+       height="315" 
+       src="https://www.youtube.com/embed/2uGrYeWbh0Q?si=HtNlIkEsH_XM5fSW" 
+       title="YouTube video player" 
+       frameborder="0" 
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+       referrerpolicy="strict-origin-when-cross-origin" 
+       allowfullscreen></iframe>
+      </div>
+
+      <div class="botao-download">
+        <button onclick="handleDownloadGame()">
+          Baixar Jogo
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <p>Feito com amor por André Brilhante de Souza Quintas.</p>
+    </footer>
+
+  </body>
+</html>
+
+<script>
+  // Função para deixar mais interativo o botão de download
+  function handleDownloadGame() {
+    alert('O jogo do tetris foi baixado com sucesso!');
+  }
+</script>
